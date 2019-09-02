@@ -61,3 +61,12 @@ ctaText[0].textContent = "Dome Is Awesome";
 
 const button = document.getElementsByTagName('button');
 button[0].textContent = "Get Started";
+
+//top-content
+const firstTitle = document.querySelectorAll('.top-content h4');
+firstTitle[0].textContent = siteContent["main-content"]["features-h4"];
+firstTitle[1].textContent = siteContent["main-content"]["about-h4"];
+
+const firstParagraph = document.querySelectorAll('.top-content p');
+firstParagraph[0].textContent = siteContent["main-content"]["features-content"]
+firstParagraph[1].textContent = siteContent["main-content"]["about-content"]
