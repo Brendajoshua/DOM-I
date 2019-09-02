@@ -47,3 +47,11 @@ grtidea.src = "img/header-img.png";
 
 let secondpic = document.getElementById("middle-img");
 secondpic.src = "img/mid-page-accent.jpg";
+
+let navitem = document.getElementsByTagName("a");
+navitem[0].textContent = "Services";
+navitem[1].textContent = "Product";
+navitem[2].textContent = "Vision";
+navitem[3].textContent = "Features";
+navitem[4].textContent = "About";
+navitem[5].textContent = "Contact";
