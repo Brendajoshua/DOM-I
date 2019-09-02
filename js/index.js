@@ -45,9 +45,6 @@ let grtidea = document.getElementById("cta-img");
 grtidea.src = "img/header-img.png";
 
 
-let secondpic = document.getElementById("middle-img");
-secondpic.src = "img/mid-page-accent.jpg";
-
 let navitem = document.getElementsByTagName("a");
 navitem[0].textContent = "Services";
 navitem[1].textContent = "Product";
@@ -68,5 +65,43 @@ firstTitle[0].textContent = siteContent["main-content"]["features-h4"];
 firstTitle[1].textContent = siteContent["main-content"]["about-h4"];
 
 const firstParagraph = document.querySelectorAll('.top-content p');
-firstParagraph[0].textContent = siteContent["main-content"]["features-content"]
-firstParagraph[1].textContent = siteContent["main-content"]["about-content"]
+firstParagraph[0].textContent = siteContent["main-content"]["features-content"];
+firstParagraph[1].textContent = siteContent["main-content"]["about-content"];
+
+//image
+const secondpic = document.getElementById("middle-img");
+secondpic.src = "img/mid-page-accent.jpg";
+
+//bottom-content
+const title = document.querySelectorAll('.bottom-content h4');
+title[0].textContent = "Services";
+title[1].textContent = "Products";
+title[2].textContent = "Vision";
+
+const ptext = document.querySelectorAll('.bottom-content p');
+ptext[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+ptext[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+ptext[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+ptext[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+ptext[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//contact
+
+const contact = document.querySelectorAll('.contact p');
+contact[5].innerText = "123 Way 456 Street\r\n  Somewhere, USA";
+
+contact[6].textContent = "1 (888) 888-8888";
+
+contact[7].textContent = "sales@greatidea.io<";
+
+contact[8].textContent = "Copyright Great Idea! 2018";
+
+const footer = document.getElementsByTagName("p");
+footer[0].textContent = "Copyright Great Idea! 2018";
+
+
+
