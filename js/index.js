@@ -53,6 +53,7 @@ navitem[3].textContent = "Features";
 navitem[4].textContent = "About";
 navitem[5].textContent = "Contact";
 
+
 const ctaText = document.getElementsByTagName('h1');    
 ctaText[0].innerText = "Dome\r\n Is\r\n Awesome";
 
@@ -78,16 +79,13 @@ title[0].textContent = "Services";
 title[1].textContent = "Products";
 title[2].textContent = "Vision";
 
+
 const ptext = document.querySelectorAll('.bottom-content p');
 ptext[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 ptext[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 ptext[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-
-ptext[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-
-ptext[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 //contact
 
@@ -96,11 +94,11 @@ contactTitle[0].textContent = "contact";
 
 const contactText = document.querySelectorAll('.contact p');
 contactText[0].innerText = "123 Way 456 Street\r\n Somewhere, USA";
-contactText[1].textContent = "1 (888) 888-8888";
+contactText[1].textContent = "1 (888) 888-88889";
 contactText[2].textContent = "sales@greatidea.io";
 
-
-const footerText = document.getElementsByTagName("p");
+//footer
+const footerText = document.getElementsByTagName("footer");
 footerText[0].textContent = "Copyright Great Idea! 2018";
 
 
