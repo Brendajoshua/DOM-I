@@ -54,7 +54,7 @@ navitem[4].textContent = "About";
 navitem[5].textContent = "Contact";
 
 const ctaText = document.getElementsByTagName('h1');    
-ctaText[0].textContent = "Dome Is Awesome";
+ctaText[0].innerText = "Dome\r\n Is\r\n Awesome";
 
 const button = document.getElementsByTagName('button');
 button[0].textContent = "Get Started";
@@ -91,17 +91,16 @@ ptext[4].textContent = "Vision content elementum magna eros, ac posuere elvit te
 
 //contact
 
-const contact = document.querySelectorAll('.contact p');
-contact[5].innerText = "123 Way 456 Street\r\n  Somewhere, USA";
+const contactTitle = document.querySelectorAll('.contact h4');
+contactTitle[0].textContent = "contact";
 
-contact[6].textContent = "1 (888) 888-8888";
+const contactText = document.querySelectorAll('.contact p');
+contactText[0].innerText = "123 Way 456 Street\r\n Somewhere, USA";
+contactText[1].textContent = "1 (888) 888-8888";
+contactText[2].textContent = "sales@greatidea.io";
 
-contact[7].textContent = "sales@greatidea.io<";
 
-contact[8].textContent = "Copyright Great Idea! 2018";
-
-const footer = document.getElementsByTagName("p");
-footer[0].textContent = "Copyright Great Idea! 2018";
-
+const footerText = document.getElementsByTagName("p");
+footerText[0].textContent = "Copyright Great Idea! 2018";
 
 
