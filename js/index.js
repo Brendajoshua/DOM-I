@@ -55,3 +55,9 @@ navitem[2].textContent = "Vision";
 navitem[3].textContent = "Features";
 navitem[4].textContent = "About";
 navitem[5].textContent = "Contact";
+
+const ctaText = document.getElementsByTagName('h1');    
+ctaText[0].textContent = "Dome Is Awesome";
+
+const button = document.getElementsByTagName('button');
+button[0].textContent = "Get Started";
